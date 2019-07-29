@@ -21,6 +21,7 @@
     background-color: white;
     width: 80%;
     text-align: center;
+    z-index: 10;
   }
 
   h2 {
@@ -31,6 +32,7 @@
     background-color: white;
     width: 80%;
     text-align: center;
+    z-index: 10;
   }
 
   div.perc {
@@ -44,6 +46,7 @@
     position: fixed;
     top: 150px;
     width:80%;
+    z-index: 5;
   }
 
   .progress-bar {
@@ -72,6 +75,9 @@
     top:0px;
     width:100%;
     background-color: white;
+    height: 200px;
+    z-index: 3;
+
   }
 
 </style>
