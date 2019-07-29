@@ -37,7 +37,7 @@
     margin-left:10px;
   }
   .progress-bar {
-    border: solid 1px black;
+    border: solid 1px darkgrey;
     min-height:15px;
     padding:0px;
     background-color: lightgrey;
@@ -86,7 +86,6 @@ elseif ($perc<100) { $color="blue"; }
 else               { $color="green"; $completed+=1;}
 
 echo "<div id='".$stock."' class='progress-bar'><div style='width:".$perc."%;' class='progress-".$color."'><div class='perc'>".$stock.": ".$perc."% (".$a."/".$b.")"."</div></div></div>";
-echo "</br>";
 }
 ?>
 </div>
