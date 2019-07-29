@@ -41,7 +41,7 @@
     position: relative;
     top: 0px;
     min-width: 500px;
-    height:50px;
+    height:40px;
   }
   
   div.current{
