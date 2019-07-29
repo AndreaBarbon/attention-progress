@@ -66,11 +66,21 @@
     min-width:150px;
     background-color: #2196f3;
   }
+
+  div.white-top {
+    position:fixed;
+    top:0px;
+    width:100%;
+    background-color: white;
+  }
+
 </style>
 
 <body>
 
 <div>
+
+<div class='white-top'></div>
 <?php
 ini_set('display_errors', 'On');
 chdir("attention-HFTs");
