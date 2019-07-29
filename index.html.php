@@ -1,59 +1,57 @@
 <html>
- <meta http-equiv="refresh" content="4"; URL="http://34.77.9.197/index.html.php">
-
+ 
 
 <style>
-body {
-  background-color: white;
-  padding:10%;
-  padding-top:150px;
-  margin:0px;
-}
+  body {
+    background-color: white;
+    padding:10%;
+    padding-top:150px;
+    margin:0px;
+  }
 
-h1 {
-  position: fixed;
-  top: 0px;
-  padding-top: 15px;
-  padding-bottom: 0px;
-  background-color: white;
-  width: 80%;
-  text-align: center;
-}
+  h1 {
+    position: fixed;
+    top: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+  }
 
-h2 {
-  position: fixed;
-  top: 60px;
-  padding-top: 15px;
-  padding-bottom: 0px;
-  background-color: white;
-  width: 80%;
-  text-align: center;
-}
+  h2 {
+    position: fixed;
+    top: 60px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: white;
+    width: 80%;
+    text-align: center;
+  }
 
-div.perc {
-  margin-left:10px;
-}
-.progress-bar {
-  border: solid 1px black;
-  min-height:15px;
-  padding:0px;
-  background-color: lightgrey;
-}
+  div.perc {
+    margin-left:10px;
+  }
+  .progress-bar {
+    border: solid 1px black;
+    min-height:15px;
+    padding:0px;
+    background-color: lightgrey;
+  }
 
-.progress-green {
-  background-color: limegreen;
-}
+  .progress-green {
+    background-color: limegreen;
+  }
 
-.progress-black {
-  min-width:150px;
-  background-color: darkgrey;
-}
+  .progress-black {
+    min-width:150px;
+    background-color: darkgrey;
+  }
 
-.progress-blue {
-  min-width:150px;
-  background-color: #2196f3;
-}
-
+  .progress-blue {
+    min-width:150px;
+    background-color: #2196f3;
+  }
 </style>
 
 <body>
