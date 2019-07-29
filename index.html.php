@@ -10,7 +10,7 @@
   }
 
   div {
-    font-size: -webkit-xx-large;
+    font-size: xx-large;
   }
 
   h1 {
