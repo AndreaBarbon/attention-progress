@@ -1,0 +1,26 @@
+<html>
+<body>
+
+
+<p>
+<?php
+ini_set('display_errors', 'On');
+chdir("attention-HFTs");
+foreach (glob("progress*.txt") as $filename) {
+$stock = substr($filename, strpos($filename, "_") + 1);
+$stock = strtok($stock, '.');
+$pro   = explode("\n", file_get_contents($filename))[0];
+$perc  = (float) strtok($pro, '/');
+$perc  = $perc / (float) substr($pro, strpos($pro, "/") + 1) * 100;
+echo "<div id='".$stock."' style='width:".$perc."%; height:20px; padding:5px; background-color: limegreen;'>".$stock."</div>";
+echo "</br>";
+}
+?>
+</p>
+
+</body>
+</html>
+
+
+
+
