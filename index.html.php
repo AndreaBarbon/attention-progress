@@ -5,12 +5,12 @@
   body {
     background-color: white;
     padding:10%;
-    padding-top:150px;
+    padding-top:200px;
     margin:0px;
   }
 
   div {
-    font-size: -webkit-xxx-large;
+    font-size: -webkit-xx-large;
   }
 
   h1 {
