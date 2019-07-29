@@ -43,6 +43,7 @@
   div.current{
     position: fixed;
     top: 150px;
+    width:80%;
   }
 
   .progress-bar {
