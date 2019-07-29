@@ -35,6 +35,9 @@
 
   div.perc {
     margin-left:10px;
+    position: relative;
+    top: 0px;
+    min-width: 500px;
   }
   .progress-bar {
     border: solid 1px darkgrey;
