@@ -81,11 +81,21 @@ $perc  = round($a / $b * 100, 1);
 $completed_events += $a;
 $total_events += $b;
 
-if     ($a==0    ) { $color="black";}
-elseif ($perc<100) { $color="blue"; }
-else               { $color="green"; $completed+=1;}
+if     ($a==0    ) { 
+  $color="black";
+  echo "<div id='".$stock."' class='progress-bar'><div style='width:".$perc."%;' class='progress-".$color."'><div class='perc'>".$stock."</div></div></div>";
+}
 
-echo "<div id='".$stock."' class='progress-bar'><div style='width:".$perc."%;' class='progress-".$color."'><div class='perc'>".$stock.": ".$perc."% (".$a."/".$b.")"."</div></div></div>";
+elseif ($perc<100) { 
+  $color="blue"; 
+  echo "<div id='".$stock."' class='progress-bar'><div style='width:".$perc."%;' class='progress-".$color."'><div class='perc'>".$stock.": ".$perc."% (".$a."/".$b.")"."</div></div></div>";
+}
+else               { 
+  $color="green"; $completed+=1;
+  echo "<div id='".$stock."' class='progress-bar'><div style='width:".$perc."%;' class='progress-".$color."'><div class='perc'>".$stock.": ".$perc."% (".$a."/".$b.")"."</div></div></div>";
+}
+
+
 }
 ?>
 </div>
