@@ -9,6 +9,10 @@
     margin:0px;
   }
 
+  div {
+    font-size: -webkit-xxx-large;
+  }
+
   h1 {
     position: fixed;
     top: 0px;
