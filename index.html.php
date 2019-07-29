@@ -31,8 +31,9 @@
     padding-bottom: 0px;
     background-color: white;
     width: 80%;
-    text-align: center;
+    text-align: center;margin-bottom:50px;
     z-index: 10;
+
   }
 
   div.perc {
@@ -40,6 +41,7 @@
     position: relative;
     top: 0px;
     min-width: 500px;
+    height:50px;
   }
   
   div.current{
